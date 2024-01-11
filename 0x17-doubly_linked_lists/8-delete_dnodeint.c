@@ -32,7 +32,6 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		if (!start)
 			return (-1);
 	}
-
 	if (len - 1 == index)
 	{
 		start->prev->next = NULL;
@@ -48,7 +47,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 /**
  * len_node - list length
  * @node:list's node
- * Return:unsigned integer
+ * Return: unsigned integer
  */
 unsigned int len_node(dlistint_t **node)
 {
