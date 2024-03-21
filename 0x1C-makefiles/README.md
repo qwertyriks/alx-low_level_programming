@@ -14,3 +14,5 @@ What are the most common / useful rules
 What are variables and how to set and use them
 
 Let's go!!
+
+### by riks <ikumatse@st.ug.edu.gh>
