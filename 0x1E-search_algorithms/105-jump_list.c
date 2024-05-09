@@ -5,9 +5,12 @@
  * jump_list - searches for a value in an array of
  * integers using the Jump search algorithm
  *
- * @list: input list
- * @size: size of the array
- * @value: value to search in
+ * @list: input list.
+ *
+ * @size: size of the arrayi.
+ *
+ * @value: value to search for.
+ *
  * Return: index of the number
  */
 listint_t *jump_list(listint_t *list, size_t size, int value)
@@ -49,3 +52,4 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 
 	return (NULL);
 }
+
