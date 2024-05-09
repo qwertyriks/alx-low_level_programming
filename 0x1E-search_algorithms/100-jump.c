@@ -2,14 +2,9 @@
 
 /**
  * jump_search - searches for a value, in a sorted array of integers.
- * 
  * @array: array of integers
- * 
  * @size: size of array
- * 
  * @value: value at be searched.
- * 
- *
  * Return: index of value searched or -1
  */
 
@@ -37,3 +32,4 @@ int jump_search(int *array, size_t size, int value)
 
 	return (array[i] == value ? (int)i : -1);
 }
+
